@@ -5,7 +5,7 @@ function menuBar(x) {
 const topMenu = document.getElementById('menu');
 const logoMenu = document.getElementById('logoMenu');
 const buttonMenu = document.getElementById('linkMenu');
-const links = document.getElementsByClassName('menu__link')
+const links = document.getElementsByClassName('menu__link');
 
 
 window.addEventListener('scroll', () => {
@@ -14,13 +14,13 @@ window.addEventListener('scroll', () => {
 
     if(scrollDistance >= 200){
         topMenu.classList.add('menu__color');
-        logoMenu.src = "style/img/menu__Logo-scroll.png"
+        logoMenu.src = "style/img/menu__Logo-scroll.png";
         for (const link of links) {
             link.style.color = 'blue';
         }
     } else {
         topMenu.classList.remove('menu__color');
-        logoMenu.src = "style/img/menu__Logo.png"
+        logoMenu.src = "style/img/menu__Logo.png";
         for (const link of links) {
             link.style.color = 'white';
         }
