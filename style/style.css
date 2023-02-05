@@ -40,6 +40,7 @@ body{
 }
 .menu{
     width: 100%;
+    max-height: 80px;
     position: fixed;
     background: #000000bd;
     z-index: 999;
@@ -68,7 +69,7 @@ body{
     display: flex;
 }
 .phoneMenu{
-    margin: 10rem 0;
+    margin-top: 80px;
     width: 100%;
     height: 100vh;
     position: absolute;
@@ -83,7 +84,6 @@ body{
 }
 .phoneMenu__link{
     text-align: center;
-    margin-top: 30px;
     font-size: 5rem;
     color: blue;
 }
