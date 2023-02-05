@@ -14,7 +14,7 @@ window.addEventListener('scroll', () => {
 
     if(scrollDistance >= 200){
         topMenu.classList.add('menu__color');
-        logoMenu.src = "style/img/menu__Logo-scroll.png";
+        logoMenu.src = "style/img/menu__logo-scroll.png";
         for (const link of links) {
             link.style.color = 'blue';
         }
