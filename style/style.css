@@ -24,6 +24,7 @@ body{
     background-size: cover;
     display: flex;
     overflow: hidden;
+    background-position: center center;
 }
 .menu__body{
     max-width: 1300px;
